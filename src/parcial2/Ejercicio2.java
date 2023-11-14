@@ -25,7 +25,7 @@ public class Ejercicio2 {
    public static void mayorImc(double imcCalculator[]){
     int size = imcCalculator.length;
     double mayorImc = imcCalculator[0];
-    for (int i = 1; i < size; i++) {
+    for (int i = 0; i < size; i++) {
         if(imcCalculator[i] > mayorImc){
             mayorImc = imcCalculator[i];
         }

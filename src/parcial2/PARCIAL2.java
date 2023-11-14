@@ -4,11 +4,11 @@ package parcial2;
 
 public class PARCIAL2 {
 
-public static final double salaryPerDay = 30000;   
+public static final double salaryPerDay = 50000;   
 public static final double SALARY_MINIMO = 1300000; 
     public static void main(String[] args) {
-        String empleado1[] = {"Keiner","15"};
-        String empleado2[] = {"Kaleth","18"};
+        String empleado1[] = {"Keiner","30"};
+        String empleado2[] = {"Kaleth","30"};
         String matrizEmployes[][]={empleado1,empleado2};
         salary(matrizEmployes);
         int size = matrizEmployes.length;
